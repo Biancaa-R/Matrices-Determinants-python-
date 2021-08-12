@@ -14,7 +14,7 @@ for i in range(0,row):
     print("one row completed")
     matrice.append(rowan) #one row that we made is added to matrice
     
-    rowan=[]# rowan is emptied, or else our matrice will be a list!
+    rowan=[]# rowan is emptied, or else our matrice will be a giant list!
     
     # the next iteration of loop 1 will take place
     
