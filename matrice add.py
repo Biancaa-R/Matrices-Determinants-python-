@@ -26,26 +26,3 @@ for i in result:
 [13, 15, 17]
 
 '''
-matrice=[]
-while True:
-    row=input("Enter the first row of matrice")
-    row.replace(",","")
-    row.split()
-    choice=input("Do you want to enter more rows, n/y")
-    matrice.append(row)
-    if choice in "Nn":
-        break
-   
-no_rows=len(matrice)
-no_coloumns=len(matrice[0])
-
-for i in matrice:
-    if len(matrice)==no_coloumns:
-        pass
-    else:
-        print("Invalid")
-
-for i in matrice:
-    print(i)
-    
-    
